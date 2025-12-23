@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { loadSiteConfig } from '@/lib/contentLoader';
 import { Twitter, Linkedin, Instagram, Youtube, Github, Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
@@ -58,11 +59,14 @@ export function Footer() {
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                <img
+                <Image
                   src="/logos/1337 (3).png"
                   alt="TIMESTAMP 1337"
+                  width={128}
+                  height={128}
                   className="h-20 sm:h-24 md:h-28 lg:h-32 w-auto object-contain drop-shadow-[0_0_20px_rgba(3,2,93,0.5)] group-hover:drop-shadow-[0_0_30px_rgba(3,2,93,0.7)] transition-all duration-500"
                   style={{ imageRendering: 'crisp-edges' }}
+                  priority
                 />
               </motion.div>
             </Link>

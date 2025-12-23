@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -84,11 +85,14 @@ export function Navbar() {
             href="/"
             className="flex items-center gap-3 hover:opacity-90 transition-opacity z-50"
           >
-            <img
+            <Image
               src="/logos/1337 (6).png"
               alt="TIMESTAMP 1337"
+              width={120}
+              height={120}
               className="h-14 sm:h-16 md:h-20 lg:h-24 w-auto object-contain"
               style={{ imageRendering: 'crisp-edges' }}
+              priority
             />
           </Link>
 

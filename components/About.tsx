@@ -313,7 +313,7 @@ export function About() {
               The Role of Ankara
             </h3>
             <p className="text-sm sm:text-base md:text-lg text-text-muted max-w-3xl mx-auto leading-relaxed px-4">
-              Hosted at <span className="text-white font-semibold">CoZone</span>, Timestamp 1337 leverages Ankara's unique ecosystem where 
+              Hosted at <span className="text-white font-semibold">CoZone</span>, Timestamp 1337 leverages Ankara&apos;s unique ecosystem where 
               technology, academia, and regulation intersect.
             </p>
           </div>
