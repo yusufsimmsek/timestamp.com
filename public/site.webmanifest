@@ -1,0 +1,24 @@
+{
+  "name": "Timestamp 1337 - SHAPE NEXT",
+  "short_name": "Timestamp 1337",
+  "description": "A one-day, high-signal Web3 & AI conference designed for depth, focus, and meaningful interaction.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#03025d",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logos/1337 (6).png",
+      "sizes": "any",
+      "type": "image/png"
+    },
+    {
+      "src": "/logos/1337 (6).png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
+
+

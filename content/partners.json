@@ -1,0 +1,103 @@
+{
+  "current": {
+    "partners": [
+      {
+        "name": "TechCorp",
+        "logo": "/partners/techcorp.png",
+        "url": "https://techcorp.com"
+      },
+      {
+        "name": "Blockchain Ventures",
+        "logo": "/partners/blockchain-ventures.png",
+        "url": "https://blockchainventures.com"
+      },
+      {
+        "name": "AI Innovations",
+        "logo": "/partners/ai-innovations.png",
+        "url": "https://aiinnovations.com"
+      },
+      {
+        "name": "Crypto Labs",
+        "logo": "/partners/crypto-labs.png",
+        "url": "https://cryptolabs.com"
+      }
+    ],
+    "mediaPartners": [
+      {
+        "name": "Tech News",
+        "logo": "/partners/tech-news.png",
+        "url": "https://technews.com"
+      },
+      {
+        "name": "Crypto Media",
+        "logo": "/partners/crypto-media.png",
+        "url": "https://cryptomedia.com"
+      }
+    ],
+    "universities": [
+      {
+        "name": "Ankara University",
+        "logo": "/partners/ankara-university.png",
+        "url": "https://ankara.edu.tr"
+      },
+      {
+        "name": "Tech Institute",
+        "logo": "/partners/tech-institute.png",
+        "url": "https://techinstitute.edu"
+      }
+    ],
+    "memberships": [
+      {
+        "name": "Web3 Foundation",
+        "logo": "/partners/web3-foundation.png",
+        "url": "https://web3.foundation"
+      },
+      {
+        "name": "AI Alliance",
+        "logo": "/partners/ai-alliance.png",
+        "url": "https://aialliance.org"
+      }
+    ]
+  },
+  "previous": {
+    "partners": [
+      {
+        "name": "Previous Partner 1",
+        "logo": "/partners/previous-1.png",
+        "url": null
+      },
+      {
+        "name": "Previous Partner 2",
+        "logo": "/partners/previous-2.png",
+        "url": null
+      },
+      {
+        "name": "Previous Partner 3",
+        "logo": "/partners/previous-3.png",
+        "url": null
+      }
+    ],
+    "mediaPartners": [
+      {
+        "name": "Previous Media 1",
+        "logo": "/partners/previous-media-1.png",
+        "url": null
+      }
+    ],
+    "universities": [
+      {
+        "name": "Previous University 1",
+        "logo": "/partners/previous-uni-1.png",
+        "url": null
+      }
+    ],
+    "memberships": [
+      {
+        "name": "Previous Membership 1",
+        "logo": "/partners/previous-mem-1.png",
+        "url": null
+      }
+    ]
+  }
+}
+

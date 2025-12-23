@@ -1,0 +1,75 @@
+[
+  {
+    "src": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&h=800&fit=crop",
+    "alt": "Event venue entrance",
+    "year": 2024,
+    "category": "venue"
+  },
+  {
+    "src": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=1200&h=800&fit=crop",
+    "alt": "Keynote presentation",
+    "year": 2024,
+    "category": "sessions"
+  },
+  {
+    "src": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=1200&h=800&fit=crop",
+    "alt": "Networking session",
+    "year": 2024,
+    "category": "networking"
+  },
+  {
+    "src": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1200&h=800&fit=crop",
+    "alt": "Workshop attendees",
+    "year": 2024,
+    "category": "workshops"
+  },
+  {
+    "src": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=1200&h=800&fit=crop",
+    "alt": "Speaker panel discussion",
+    "year": 2024,
+    "category": "sessions"
+  },
+  {
+    "src": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1200&h=800&fit=crop",
+    "alt": "Exhibition area",
+    "year": 2024,
+    "category": "exhibition"
+  },
+  {
+    "src": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1200&h=800&fit=crop",
+    "alt": "Closing ceremony",
+    "year": 2024,
+    "category": "ceremony"
+  },
+  {
+    "src": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1200&h=800&fit=crop",
+    "alt": "Hackathon participants",
+    "year": 2024,
+    "category": "hackathon"
+  },
+  {
+    "src": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&h=800&fit=crop",
+    "alt": "Sponsor booths",
+    "year": 2024,
+    "category": "exhibition"
+  },
+  {
+    "src": "https://images.unsplash.com/photo-1556761175-bb19dfe9b77e?w=1200&h=800&fit=crop",
+    "alt": "Community meetup",
+    "year": 2024,
+    "category": "networking"
+  },
+  {
+    "src": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=1200&h=800&fit=crop",
+    "alt": "Award ceremony",
+    "year": 2024,
+    "category": "ceremony"
+  },
+  {
+    "src": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1200&h=800&fit=crop",
+    "alt": "Event group photo",
+    "year": 2024,
+    "category": "general"
+  }
+]
+

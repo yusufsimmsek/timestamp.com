@@ -1,0 +1,29 @@
+{
+  "siteName": "TIMESTAMP 1337",
+  "subtitle": "BLOCKCHAIN · AI · FINTECH",
+  "dates": "March 2026",
+  "venue": "CoZone, Ankara",
+  "organizer": "CANKAYA BLOCKCHAIN",
+  "cta": {
+    "primary": "Get Ticket",
+    "secondary": "Become a Sponsor / Speaker"
+  },
+  "socials": {
+    "twitter": "https://twitter.com/timestamp1337",
+    "linkedin": "https://linkedin.com/company/timestamp1337",
+    "instagram": "https://instagram.com/timestamp1337",
+    "youtube": "https://youtube.com/@timestamp1337",
+    "github": "https://github.com/timestamp1337"
+  },
+  "contact": {
+    "email": "info@cankayablockchain.com",
+    "address": "CoZone, Ankara, Türkiye",
+    "website": "cankayablockchain.com"
+  },
+  "seo": {
+    "title": "TIMESTAMP 1337 - Web3 & AI Conference | Ankara",
+    "description": "A one-day, high-signal Web3 & AI conference designed for depth, focus, and meaningful interaction. Bringing together builders, innovators, investors, and institutions.",
+    "ogImage": "/og-image.jpg"
+  }
+}
+

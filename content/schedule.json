@@ -1,0 +1,34 @@
+{
+  "day1": [
+    {
+      "startTime": "10:00",
+      "duration": "60 min",
+      "title": "Morning – Vision & Content",
+      "description": "Opening keynotes and content-focused sessions setting the vision for Web3 & AI.",
+      "track": "Main Stage"
+    },
+    {
+      "startTime": "12:00",
+      "duration": "90 min",
+      "title": "Midday – Interaction & Networking",
+      "description": "Structured networking sessions, Q&A opportunities, and direct access to speakers.",
+      "track": null
+    },
+    {
+      "startTime": "14:00",
+      "duration": "120 min",
+      "title": "Afternoon – Builders & Startups",
+      "description": "Builder-focused sessions for practitioners, founders, and operators shaping Web3 & AI ecosystems.",
+      "track": "Main Stage"
+    },
+    {
+      "startTime": "17:00",
+      "duration": "120 min",
+      "title": "Evening – Community & Connections",
+      "description": "Community building, long-term connections, and meaningful relationships over short-term exposure.",
+      "track": null
+    }
+  ],
+  "day2": []
+}
+

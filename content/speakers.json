@@ -1,0 +1,87 @@
+[
+  {
+    "id": "1",
+    "slug": "alex-chen",
+    "name": "Alex Chen",
+    "role": "CEO, Blockchain Innovations",
+    "bio": "Pioneer in decentralized finance with over 10 years of experience building scalable blockchain solutions.",
+    "photo": "/speakers/alex-chen.jpg",
+    "socials": {
+      "twitter": "https://twitter.com/alexchen",
+      "linkedin": "https://linkedin.com/in/alexchen",
+      "github": "https://github.com/alexchen"
+    },
+    "tags": ["DeFi", "Web3", "Blockchain"]
+  },
+  {
+    "id": "2",
+    "slug": "sarah-johnson",
+    "name": "Sarah Johnson",
+    "role": "AI Research Lead, TechCorp",
+    "bio": "Leading researcher in machine learning and AI ethics, with publications in top-tier conferences.",
+    "photo": "/speakers/sarah-johnson.jpg",
+    "socials": {
+      "twitter": "https://twitter.com/sarahjohnson",
+      "linkedin": "https://linkedin.com/in/sarahjohnson",
+      "youtube": "https://youtube.com/@sarahjohnson"
+    },
+    "tags": ["AI", "Machine Learning", "Ethics"]
+  },
+  {
+    "id": "3",
+    "slug": "michael-rodriguez",
+    "name": "Michael Rodriguez",
+    "role": "CTO, CryptoVault",
+    "bio": "Security expert specializing in smart contract audits and blockchain infrastructure.",
+    "photo": "/speakers/michael-rodriguez.jpg",
+    "socials": {
+      "twitter": "https://twitter.com/mrodriguez",
+      "linkedin": "https://linkedin.com/in/mrodriguez",
+      "github": "https://github.com/mrodriguez"
+    },
+    "tags": ["Security", "Web3", "Smart Contracts"]
+  },
+  {
+    "id": "4",
+    "slug": "emma-williams",
+    "name": "Emma Williams",
+    "role": "Product Manager, DeFi Protocol",
+    "bio": "Product strategist with expertise in DeFi protocols and user experience design.",
+    "photo": "/speakers/emma-williams.jpg",
+    "socials": {
+      "twitter": "https://twitter.com/emmawilliams",
+      "linkedin": "https://linkedin.com/in/emmawilliams",
+      "instagram": "https://instagram.com/emmawilliams"
+    },
+    "tags": ["DeFi", "Product", "UX"]
+  },
+  {
+    "id": "5",
+    "slug": "david-kim",
+    "name": "David Kim",
+    "role": "Founder, AI Startup",
+    "bio": "Serial entrepreneur building the next generation of AI-powered applications.",
+    "photo": "/speakers/david-kim.jpg",
+    "socials": {
+      "twitter": "https://twitter.com/davidkim",
+      "linkedin": "https://linkedin.com/in/davidkim",
+      "youtube": "https://youtube.com/@davidkim"
+    },
+    "tags": ["AI", "Startups", "Innovation"]
+  },
+  {
+    "id": "6",
+    "slug": "lisa-anderson",
+    "name": "Lisa Anderson",
+    "role": "Blockchain Architect, Enterprise Solutions",
+    "bio": "Designing enterprise-grade blockchain solutions for Fortune 500 companies.",
+    "photo": "/speakers/lisa-anderson.jpg",
+    "socials": {
+      "twitter": "https://twitter.com/lisaanderson",
+      "linkedin": "https://linkedin.com/in/lisaanderson",
+      "github": "https://github.com/lisaanderson"
+    },
+    "tags": ["Enterprise", "Blockchain", "Architecture"]
+  }
+]
+
