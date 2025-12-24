@@ -91,7 +91,7 @@ export function ScheduleTabs() {
                           whileHover={{ scale: 1.1 }}
                           className="inline-flex flex-col items-start"
                         >
-                          <div className="text-[#03025d] font-black text-3xl sm:text-4xl md:text-5xl tracking-tight leading-none">
+                          <div className="text-white font-black text-3xl sm:text-4xl md:text-5xl tracking-tight leading-none">
                             {item.startTime}
                           </div>
                         </motion.div>
