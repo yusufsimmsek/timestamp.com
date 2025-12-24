@@ -1,6 +1,7 @@
 import { ImageResponse } from 'next/og';
 import { loadSiteConfig } from '@/lib/contentLoader';
 
+export const dynamic = 'force-static';
 export const alt = 'Timestamp 1337 - Web3 & AI Conference';
 export const size = {
   width: 1200,
