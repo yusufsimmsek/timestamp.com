@@ -5,6 +5,8 @@ export const siteConfigSchema = z.object({
   siteName: z.string(),
   subtitle: z.string().optional(),
   dates: z.string(),
+  startDate: z.string().optional(),
+  endDate: z.string().optional(),
   venue: z.string(),
   organizer: z.string().optional(),
   cta: z.object({

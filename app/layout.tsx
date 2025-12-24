@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { Navbar } from '@/components/Navbar';
@@ -96,9 +97,47 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const siteConfig = loadSiteConfig();
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://timestamp1337.com';
+  
+  // Structured Data (JSON-LD) for Event
+  const eventStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Event',
+    name: siteConfig.seo.title,
+    description: siteConfig.seo.description,
+    startDate: siteConfig.startDate || '2026-03-01',
+    endDate: siteConfig.endDate || '2026-03-01',
+    eventStatus: 'https://schema.org/EventScheduled',
+    eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+    location: {
+      '@type': 'Place',
+      name: siteConfig.venue,
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Ankara',
+        addressCountry: 'TR',
+      },
+    },
+    organizer: {
+      '@type': 'Organization',
+      name: siteConfig.organizer || 'CANKAYA BLOCKCHAIN',
+      url: siteUrl,
+    },
+    image: siteConfig.seo.ogImage 
+      ? `${siteUrl}${siteConfig.seo.ogImage}`
+      : `${siteUrl}/og-image.jpg`,
+    url: siteUrl,
+  };
+
   return (
     <html lang="en" className={inter.variable}>
       <body className={inter.className}>
+        <Script
+          id="event-structured-data"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(eventStructuredData) }}
+        />
         <Loading />
         <div className="relative min-h-screen overflow-x-hidden">
           {/* Global modern glow background (applies to all pages) */}
