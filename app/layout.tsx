@@ -67,16 +67,17 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     icons: {
       icon: [
-        { url: '/logos/1337 (6).png', sizes: 'any', type: 'image/png' },
-        { url: '/favicon.ico', sizes: 'any' },
+        { url: '/icon.svg', type: 'image/svg+xml' },
+        { url: '/logos/1337 (6).png', sizes: '192x192', type: 'image/png' },
+        { url: '/logos/1337 (6).png', sizes: '512x512', type: 'image/png' },
       ],
       apple: [
-        { url: '/logos/1337 (6).png', sizes: '180x180', type: 'image/png' },
+        { url: '/apple-icon.svg', sizes: '180x180', type: 'image/svg+xml' },
       ],
       other: [
-        { rel: 'mask-icon', url: '/logos/1337 (6).png', color: '#03025d' },
+        { rel: 'mask-icon', url: '/icon.svg', color: '#03025d' },
       ],
-      shortcut: '/logos/1337 (6).png',
+      shortcut: '/icon.svg',
     },
     manifest: '/site.webmanifest',
   };
