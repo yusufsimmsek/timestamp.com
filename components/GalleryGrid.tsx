@@ -89,10 +89,10 @@ export function GalleryGrid() {
             >
               <button
                 onClick={closeLightbox}
-                className="absolute -top-12 right-0 text-white hover:text-accent-primary transition-colors"
+                className="absolute -top-10 sm:-top-12 right-0 sm:right-0 text-white hover:text-accent-primary transition-colors z-10"
                 aria-label="Close"
               >
-                <X size={32} />
+                <X size={28} className="sm:w-8 sm:h-8" />
               </button>
               
               <div className="relative aspect-video rounded-lg overflow-hidden border border-white/10">
@@ -105,27 +105,27 @@ export function GalleryGrid() {
                 />
               </div>
               
-              <div className="absolute top-1/2 -left-12 -translate-y-1/2">
+              <div className="absolute top-1/2 left-2 sm:-left-12 -translate-y-1/2">
                 <button
                   onClick={goToPrevious}
-                  className="w-10 h-10 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-white hover:text-black transition-colors"
+                  className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-white hover:text-black transition-colors"
                   aria-label="Previous"
                 >
-                  <ChevronLeft size={24} />
+                  <ChevronLeft size={20} className="sm:w-6 sm:h-6" />
                 </button>
               </div>
               
-              <div className="absolute top-1/2 -right-12 -translate-y-1/2">
+              <div className="absolute top-1/2 right-2 sm:-right-12 -translate-y-1/2">
                 <button
                   onClick={goToNext}
-                  className="w-10 h-10 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-white hover:text-black transition-colors"
+                  className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-white hover:text-black transition-colors"
                   aria-label="Next"
                 >
-                  <ChevronRight size={24} />
+                  <ChevronRight size={20} className="sm:w-6 sm:h-6" />
                 </button>
               </div>
               
-              <p className="text-center text-white mt-4">
+              <p className="text-center text-white mt-4 text-sm sm:text-base">
                 {selectedIndex + 1} / {gallery.length}
               </p>
             </motion.div>

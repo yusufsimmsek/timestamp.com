@@ -59,7 +59,7 @@ export function ScheduleTabs() {
                 <motion.div
                   whileHover={{ x: 8, scale: 1.02 }}
                   className={cn(
-                    "relative rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10",
+                    "relative rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 lg:p-10",
                     "bg-gradient-to-br from-black/80 via-[#03025d]/10 to-black/80",
                     "border border-white/10 group-hover:border-[#03025d]/50",
                     "backdrop-blur-xl",
@@ -91,7 +91,7 @@ export function ScheduleTabs() {
                           whileHover={{ scale: 1.1 }}
                           className="inline-flex flex-col items-start"
                         >
-                          <div className="text-white font-black text-3xl sm:text-4xl md:text-5xl tracking-tight leading-none">
+                          <div className="text-white font-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-tight leading-none">
                             {item.startTime}
                           </div>
                         </motion.div>
@@ -101,7 +101,7 @@ export function ScheduleTabs() {
                       <div className="flex-1 space-y-3 sm:space-y-4">
                         <motion.h3
                           whileHover={{ x: 4 }}
-                          className="text-2xl sm:text-3xl md:text-4xl font-black text-white tracking-tight leading-tight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-white group-hover:via-[#03025d] group-hover:to-white transition-all duration-500"
+                          className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-white tracking-tight leading-tight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-white group-hover:via-[#03025d] group-hover:to-white transition-all duration-500"
                         >
                           {item.title}
                         </motion.h3>
