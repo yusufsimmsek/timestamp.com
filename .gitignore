@@ -11,6 +11,8 @@
 # next.js
 /.next/
 /out/
+# Keep build files in root for manual deployment (if needed)
+# But GitHub Actions will handle deployment automatically
 
 # production
 /build
