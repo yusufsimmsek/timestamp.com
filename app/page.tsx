@@ -5,6 +5,7 @@ import { Format } from '@/components/Format';
 import { GalleryGrid } from '@/components/GalleryGrid';
 import { ScheduleTabs } from '@/components/ScheduleTabs';
 import { FAQAccordion } from '@/components/FAQAccordion';
+// import { Partners } from '@/components/Partners'; // Temporarily disabled - will be activated later
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <GalleryGrid />
       <ScheduleTabs />
       <FAQAccordion />
+      {/* <Partners /> */}
     </>
   );
 }

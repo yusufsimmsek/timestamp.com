@@ -200,18 +200,6 @@ export function Footer() {
           <p className="text-xs text-white/60">
             © {new Date().getFullYear()} {siteConfig.siteName}. All rights reserved.
           </p>
-          <motion.div
-            className="flex items-center gap-2 text-xs text-white/60"
-            whileHover={{ scale: 1.05 }}
-            transition={{ type: "spring", stiffness: 300 }}
-          >
-            <motion.span
-              className="w-2 h-2 rounded-full bg-green-500"
-              animate={{ opacity: [1, 0.5, 1] }}
-              transition={{ duration: 2, repeat: Infinity }}
-            />
-            <span>Systems Operational</span>
-          </motion.div>
         </motion.div>
       </div>
     </footer>

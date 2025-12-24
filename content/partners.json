@@ -3,59 +3,84 @@
     "partners": [
       {
         "name": "TechCorp",
-        "logo": "/partners/techcorp.png",
+        "logo": "https://via.placeholder.com/300x200/03025d/ffffff?text=TechCorp",
         "url": "https://techcorp.com"
       },
       {
         "name": "Blockchain Ventures",
-        "logo": "/partners/blockchain-ventures.png",
+        "logo": "https://via.placeholder.com/300x200/03025d/ffffff?text=Blockchain+Ventures",
         "url": "https://blockchainventures.com"
       },
       {
         "name": "AI Innovations",
-        "logo": "/partners/ai-innovations.png",
+        "logo": "https://via.placeholder.com/300x200/03025d/ffffff?text=AI+Innovations",
         "url": "https://aiinnovations.com"
       },
       {
         "name": "Crypto Labs",
-        "logo": "/partners/crypto-labs.png",
+        "logo": "https://via.placeholder.com/300x200/03025d/ffffff?text=Crypto+Labs",
         "url": "https://cryptolabs.com"
+      },
+      {
+        "name": "Digital Solutions",
+        "logo": "https://via.placeholder.com/300x200/03025d/ffffff?text=Digital+Solutions",
+        "url": null
+      },
+      {
+        "name": "Cloud Tech",
+        "logo": "https://via.placeholder.com/300x200/03025d/ffffff?text=Cloud+Tech",
+        "url": null
       }
     ],
     "mediaPartners": [
       {
         "name": "Tech News",
-        "logo": "/partners/tech-news.png",
+        "logo": "https://via.placeholder.com/300x200/03025d/ffffff?text=Tech+News",
         "url": "https://technews.com"
       },
       {
         "name": "Crypto Media",
-        "logo": "/partners/crypto-media.png",
+        "logo": "https://via.placeholder.com/300x200/03025d/ffffff?text=Crypto+Media",
         "url": "https://cryptomedia.com"
+      },
+      {
+        "name": "Tech Magazine",
+        "logo": "https://via.placeholder.com/300x200/03025d/ffffff?text=Tech+Magazine",
+        "url": null
       }
     ],
     "universities": [
       {
         "name": "Ankara University",
-        "logo": "/partners/ankara-university.png",
+        "logo": "https://via.placeholder.com/300x200/03025d/ffffff?text=Ankara+University",
         "url": "https://ankara.edu.tr"
       },
       {
         "name": "Tech Institute",
-        "logo": "/partners/tech-institute.png",
+        "logo": "https://via.placeholder.com/300x200/03025d/ffffff?text=Tech+Institute",
         "url": "https://techinstitute.edu"
+      },
+      {
+        "name": "Istanbul Tech",
+        "logo": "https://via.placeholder.com/300x200/03025d/ffffff?text=Istanbul+Tech",
+        "url": null
       }
     ],
     "memberships": [
       {
         "name": "Web3 Foundation",
-        "logo": "/partners/web3-foundation.png",
+        "logo": "https://via.placeholder.com/300x200/03025d/ffffff?text=Web3+Foundation",
         "url": "https://web3.foundation"
       },
       {
         "name": "AI Alliance",
-        "logo": "/partners/ai-alliance.png",
+        "logo": "https://via.placeholder.com/300x200/03025d/ffffff?text=AI+Alliance",
         "url": "https://aialliance.org"
+      },
+      {
+        "name": "Blockchain Community",
+        "logo": "https://via.placeholder.com/300x200/03025d/ffffff?text=Blockchain+Community",
+        "url": null
       }
     ]
   },
@@ -63,38 +88,58 @@
     "partners": [
       {
         "name": "Previous Partner 1",
-        "logo": "/partners/previous-1.png",
+        "logo": "https://via.placeholder.com/300x200/1a1a2e/ffffff?text=Previous+Partner+1",
         "url": null
       },
       {
         "name": "Previous Partner 2",
-        "logo": "/partners/previous-2.png",
+        "logo": "https://via.placeholder.com/300x200/1a1a2e/ffffff?text=Previous+Partner+2",
         "url": null
       },
       {
         "name": "Previous Partner 3",
-        "logo": "/partners/previous-3.png",
+        "logo": "https://via.placeholder.com/300x200/1a1a2e/ffffff?text=Previous+Partner+3",
+        "url": null
+      },
+      {
+        "name": "Previous Partner 4",
+        "logo": "https://via.placeholder.com/300x200/1a1a2e/ffffff?text=Previous+Partner+4",
         "url": null
       }
     ],
     "mediaPartners": [
       {
         "name": "Previous Media 1",
-        "logo": "/partners/previous-media-1.png",
+        "logo": "https://via.placeholder.com/300x200/1a1a2e/ffffff?text=Previous+Media+1",
+        "url": null
+      },
+      {
+        "name": "Previous Media 2",
+        "logo": "https://via.placeholder.com/300x200/1a1a2e/ffffff?text=Previous+Media+2",
         "url": null
       }
     ],
     "universities": [
       {
         "name": "Previous University 1",
-        "logo": "/partners/previous-uni-1.png",
+        "logo": "https://via.placeholder.com/300x200/1a1a2e/ffffff?text=Previous+University+1",
+        "url": null
+      },
+      {
+        "name": "Previous University 2",
+        "logo": "https://via.placeholder.com/300x200/1a1a2e/ffffff?text=Previous+University+2",
         "url": null
       }
     ],
     "memberships": [
       {
         "name": "Previous Membership 1",
-        "logo": "/partners/previous-mem-1.png",
+        "logo": "https://via.placeholder.com/300x200/1a1a2e/ffffff?text=Previous+Membership+1",
+        "url": null
+      },
+      {
+        "name": "Previous Membership 2",
+        "logo": "https://via.placeholder.com/300x200/1a1a2e/ffffff?text=Previous+Membership+2",
         "url": null
       }
     ]

@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { scrollToSection } from '@/lib/utils';
 
@@ -14,6 +14,7 @@ const navLinks = [
   // { label: 'Speakers', href: '#speakers' }, // Temporarily disabled
   { label: 'Gallery', href: '#gallery' },
   { label: 'FAQ', href: '#faq' },
+  // { label: 'Partners', href: '#partners' }, // Temporarily disabled - will be activated later
 ];
 
 export function Navbar() {
@@ -31,7 +32,7 @@ export function Navbar() {
           setIsScrolled(window.scrollY > 20);
           
           // Update active section based on scroll position
-          const sections = ['about', 'format', 'gallery', 'faq']; // 'speakers' temporarily disabled
+          const sections = ['about', 'format', 'gallery', 'faq']; // 'speakers' and 'partners' temporarily disabled
           const scrollPosition = window.scrollY + 100;
 
           for (const section of sections) {
@@ -126,27 +127,10 @@ export function Navbar() {
             >
               Speakers
             </Link> */}
-            <div className="relative group">
-              <button className="flex items-center gap-1 text-sm font-medium text-white/80 hover:text-accent-primary transition-colors">
-                Previous
-                <ChevronDown className="w-4 h-4" />
-              </button>
-              <div className="absolute top-full left-0 mt-2 w-48 bg-background-alt border border-white/10 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                <Link
-                  href="/partners"
-                  className="block px-4 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors rounded-t-lg"
-                >
-                  Partners
-                </Link>
-                {/* Speakers link temporarily disabled - will be reactivated later */}
-                {/* <Link
-                  href="/speakers"
-                  className="block px-4 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors rounded-b-lg"
-                >
-                  All Speakers
-                </Link> */}
-              </div>
-            </div>
+            {/* Partners link temporarily disabled - will be activated later */}
+            <span className="text-sm font-medium text-white/40 cursor-not-allowed">
+              Partners
+            </span>
             <Link
               href="/#about"
               className="px-6 py-2.5 bg-gradient-to-r from-white via-white/95 to-white text-background font-bold text-sm rounded-full hover:scale-105 transition-all shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_30px_rgba(255,255,255,0.4)]"
@@ -190,12 +174,10 @@ export function Navbar() {
           >
             Speakers
           </Link> */}
-          <Link
-            href="/partners"
-            className="text-2xl font-medium text-white hover:text-accent-primary transition-colors"
-          >
+          {/* Partners link temporarily disabled - will be activated later */}
+          <span className="text-2xl font-medium text-white/40 cursor-not-allowed">
             Partners
-          </Link>
+          </span>
           <Link
             href="/#about"
             className="px-8 py-3 bg-accent-primary text-background font-bold text-lg rounded-full"

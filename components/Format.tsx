@@ -8,14 +8,17 @@ const formatPillars = [
   {
     title: 'Content-First',
     subtitle: 'High-signal sessions',
+    image: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&h=600&fit=crop&q=80',
   },
   {
     title: 'Curated Interaction',
     subtitle: 'Meaningful connections',
+    image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=600&fit=crop&q=80',
   },
   {
     title: 'Builder-Focused',
     subtitle: 'For practitioners',
+    image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop&q=80',
   },
   {
     title: 'Community',
@@ -65,12 +68,12 @@ export function Format() {
                      boxShadow: '0 4px 20px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.05)'
                    }}
               >
-                {/* Community Meet Up Image - Only for Community pillar */}
+                {/* Background Image for all pillars */}
                 {pillar.image && (
                   <div className="absolute inset-0 opacity-20 group-hover:opacity-30 transition-opacity duration-500">
                     <Image
                       src={pillar.image}
-                      alt="Community meet up"
+                      alt={pillar.title}
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
