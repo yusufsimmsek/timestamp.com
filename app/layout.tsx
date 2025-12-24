@@ -105,20 +105,26 @@ export default function RootLayout({
             __html: `
               (function() {
                 // Only run on initial page load, not on client-side navigation
-                if (window.history.replaceState && !sessionStorage.getItem('spa-restored')) {
-                  var params = new URLSearchParams(window.location.search);
-                  var encodedPath = params.get('path');
-                  
-                  if (encodedPath) {
-                    try {
+                if (window.history && window.history.replaceState && !sessionStorage.getItem('spa-restored')) {
+                  try {
+                    var params = new URLSearchParams(window.location.search);
+                    var encodedPath = params.get('path');
+                    
+                    if (encodedPath) {
                       var decodedPath = decodeURIComponent(encodedPath);
-                      // decodedPath already contains pathname + search + hash
+                      // Ensure path starts with / for proper URL handling
+                      if (decodedPath && !decodedPath.startsWith('/')) {
+                        decodedPath = '/' + decodedPath;
+                      }
                       // Restore the original URL without reloading
-                      window.history.replaceState(null, '', decodedPath);
-                      sessionStorage.setItem('spa-restored', 'true');
-                    } catch (e) {
-                      console.warn('Failed to restore SPA path:', e);
+                      if (decodedPath) {
+                        window.history.replaceState(null, '', decodedPath);
+                        sessionStorage.setItem('spa-restored', 'true');
+                      }
                     }
+                  } catch (e) {
+                    // Silently fail - don't break the page if restore fails
+                    console.warn('SPA path restore failed:', e);
                   }
                 }
               })();
