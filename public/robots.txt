@@ -2,6 +2,11 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
+# Force re-crawl
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
 Sitemap: https://timestamp1337.com/sitemap.xml
 
 
