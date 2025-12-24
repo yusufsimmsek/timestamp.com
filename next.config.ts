@@ -2,6 +2,7 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   output: 'export',
+  distDir: 'dist',
   trailingSlash: true,
   outputFileTracingRoot: require('path').join(__dirname),
   images: {
