@@ -135,20 +135,6 @@ export function ScheduleTabs() {
             ))}
           </div>
           
-          {/* Coming Soon Note */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.5 }}
-            className="mt-12 sm:mt-16 text-center"
-          >
-            <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-xl">
-              <p className="text-white/60 text-sm sm:text-base italic">
-                Detailed schedule will be added
-              </p>
-            </div>
-          </motion.div>
         </div>
       </div>
     </Section>
