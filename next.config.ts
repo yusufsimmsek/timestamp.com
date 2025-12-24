@@ -1,12 +1,17 @@
 import type { NextConfig } from 'next';
 
+const isProduction = process.env.NODE_ENV === 'production';
+
 const nextConfig: NextConfig = {
-  output: 'export',
-  distDir: 'dist',
-  trailingSlash: true,
-  outputFileTracingRoot: require('path').join(__dirname),
+  // Only enable static export for production builds
+  ...(isProduction && {
+    output: 'export',
+    distDir: 'out',
+    trailingSlash: true,
+    outputFileTracingRoot: require('path').join(__dirname),
+  }),
   images: {
-    unoptimized: true,
+    unoptimized: isProduction,
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
       {
