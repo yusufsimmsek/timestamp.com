@@ -99,6 +99,32 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <body className={inter.className}>
+        {/* SPA deep link restore script for GitHub Pages */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                // Only run on initial page load, not on client-side navigation
+                if (window.history.replaceState && !sessionStorage.getItem('spa-restored')) {
+                  var params = new URLSearchParams(window.location.search);
+                  var encodedPath = params.get('path');
+                  
+                  if (encodedPath) {
+                    try {
+                      var decodedPath = decodeURIComponent(encodedPath);
+                      // decodedPath already contains pathname + search + hash
+                      // Restore the original URL without reloading
+                      window.history.replaceState(null, '', decodedPath);
+                      sessionStorage.setItem('spa-restored', 'true');
+                    } catch (e) {
+                      console.warn('Failed to restore SPA path:', e);
+                    }
+                  }
+                }
+              })();
+            `,
+          }}
+        />
         <Loading />
         <div className="relative min-h-screen overflow-x-hidden">
           {/* Global modern glow background (applies to all pages) */}
